@@ -34,7 +34,7 @@ export default function QueroDoar(){
             autor,
             image_url
         }
-        await axios.post("https://desafio-livros-api.onrender.com/doar",dadosParaEnviar)
+        await axios.post("https://api-3gad.onrender.com/doar",dadosParaEnviar)
     }
 
     return(
